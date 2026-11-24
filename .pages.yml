@@ -1,0 +1,98 @@
+# Inner Visions Design: editable content for Pages CMS
+# The dashboard edits content/home.json; HTML layout stays untouched.
+media:
+  input: assets
+  output: assets
+content:
+  - name: homepage
+    label: Homepage
+    type: file
+    path: content/home.json
+    format: json
+    fields:
+      # Hero / First Impression
+      - name: eyebrow
+        label: "Short text above headline"
+        type: string
+      - name: hero_line1
+        label: "Headline line 1"
+        type: string
+      - name: hero_accent
+        label: "Pink italic headline"
+        type: string
+      - name: hero_line3
+        label: "Headline line 3"
+        type: string
+      - name: hero_line4
+        label: "Headline line 4"
+        type: string
+      - name: hero_description
+        label: "Intro paragraph"
+        type: text
+      - name: hero_image
+        label: "Hero elephant image"
+        type: image
+      # Services
+      - name: services_heading1
+        label: "Services Heading1"
+        type: string
+      - name: services_heading2
+        label: "Services Heading2"
+        type: string
+      - name: service1_title
+        label: "Service1 Title"
+        type: string
+      - name: service1_description
+        label: "Service1 Description"
+        type: text
+      - name: service2_title
+        label: "Service2 Title"
+        type: string
+      - name: service2_description
+        label: "Service2 Description"
+        type: text
+      - name: service3_title
+        label: "Service3 Title"
+        type: string
+      - name: service3_description
+        label: "Service3 Description"
+        type: text
+      # Featured Work
+      - name: work_heading1
+        label: "Work Heading1"
+        type: string
+      - name: work_heading2
+        label: "Work Heading2"
+        type: string
+      - name: project1_title
+        label: "Project1 Title"
+        type: string
+      - name: project2_title
+        label: "Project2 Title"
+        type: string
+      - name: project2_image
+        label: "Apparel label image"
+        type: image
+      - name: portfolio_url
+        label: "Personal portfolio website link"
+        type: string
+      # Studio / About
+      - name: about_heading1
+        label: "About Heading1"
+        type: string
+      - name: about_heading2
+        label: "About Heading2"
+        type: string
+      - name: about_paragraph1
+        label: "About Paragraph1"
+        type: text
+      - name: about_paragraph2
+        label: "About Paragraph2"
+        type: text
+      # Contact Call to Action
+      - name: cta_heading1
+        label: "Cta Heading1"
+        type: string
+      - name: cta_heading2
+        label: "Cta Heading2"
+        type: string
